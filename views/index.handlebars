@@ -1,14 +1,36 @@
 <div class="container">
-  <div class="row">
-    <div class="center col-sm-12">
-      <img src="/public/assets/img/burger.png">
-      <h1 class="text-dark">Eat Da Burger</h1>
+  <div class="jumbotron">
+    <div class="row">
+      <div class="center col-sm-12">
+        <div class="burger-image">
+          <img src="/assets/img/burger.png" style="width:150px;">
+        </div>
+        <div class="row">
+          <div class="center col-sm-12">
+            <h1 class="text-dark">Eat Da Burger</h1>
+            <p> Make or order a burger!</p>
+            <panel>
+          </div>
+          <div class="col-sm-6">
+            <div class="row">
+              <h2>Order a burger!</h2>
+              <form class="create-form">
+
+                <div class="form-group">
+                  <label for="ca">Burger Name:</label>
+                  <input type="text" id="ca" name="name">
+                </div>
+            </div>
+            <button type="submit">Add Burger</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-sm-6">
-      <br>
+  <div class="jumbotron">
+    <div class="column">
       <h2 class=".text-dark">Available Burgers</h2>
       <ul>
         {{#each burgers}}
@@ -18,12 +40,8 @@
         {{/each}}
       </ul>
     </div>
-  </div>
 
-
-  <div class="row">
-    <div class="col-sm-6">
-      <br>
+    <div class="column">
       <h2>Devoured Burgers</h2>
       <ul>
         {{#each burgers}}
@@ -33,17 +51,7 @@
         {{/each}}
       </ul>
     </div>
+
   </div>
-
-  <div class="row">
-    <div class="col-sm-6">
-      <h2>Order a burger!</h2>
-      <form class="create-form">
-
-        <div class="form-group">
-          <label for="ca">Burger Name:</label>
-          <input type="text" id="ca" name="name">
-        </div>
-
-        <button type="submit">Add Burger</button>
-      </form>
+{{!-- close container --}}
+</div>
