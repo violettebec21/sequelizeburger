@@ -1,5 +1,5 @@
-# sequelizeburger
-# Burger 2: The Sequel
+# Sequelize Burger
+## Burger 2: The Sequel 
 
 ### Overview
 
@@ -13,7 +13,7 @@ https://bec-sequelizedburgers.herokuapp.com/
 
 ### :bulb: **Key Concepts Employed**
 
-1. Learning how to utilize Sequelize CRUD operations (compared to MySQL CRUD operations)
+1. Learned how to utilize Sequelize CRUD operations (compared to MySQL CRUD operations)
 
 2. Became more familiar with Handlebars and their role 
 
